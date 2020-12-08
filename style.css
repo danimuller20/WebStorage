@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  color: rgb(48, 47, 47);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 25px;
+}
+
+
+header {
+background-color: rgb(241, 206, 252);
+margin-top: 0;
+padding: 35px;
+}
+
+.preferences {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  border: 2px solid rgb(209, 139, 139);
+  border-radius: 15px;
+  margin-top: -30px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+button {
+  border-radius: 5px;
+  border: 2px solid rgb(209, 139, 139);
+  margin: 1px;
+}
+
+button:hover {
+  background-color: rgb(245, 253, 253);
+}
+
+.change-backgroudColor {
+  display: block;
+  margin: -15px;
+  margin-top: -30px;
+}
+
+#title {
+  text-align: center;
+}
+
+#caption1, #caption2 {
+  text-align: center;
+  margin: 35px;
+}
+
+#main-content {
+  margin: 15px;
+  padding: 35px;
+  text-align: justify;
+  text-indent: 35px;
+}
+
+.reference, .link{
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(241, 206, 252);
+  margin-bottom: 0;
+  padding: 45px;
+  color: rgb(48, 47, 47);
+  font-size: 18px;
+}
